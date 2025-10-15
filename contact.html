@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- PYSCRIPT CDN -->
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+	
+    <!-- SETUP BOOTSTAP: LINK TO BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- FONT EMBED -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- CSS LINK -->
+    <link rel="stylesheet" type="text/css" href="contact.css">
+
+    <title>Project: Business Website</title>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+    <div class="container-fluid">
+        <img src="amgbakerylogo.png" alt="Logo" class="rounded-pill" style="width: 3%;">
+        <a class="navbar-brand" href="index.html">AMG Bakery</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="order.html">Order Now</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Search">
+                <button class="btn btn-outline-light" type="button">Search</button>
+            </form>
+        </div>
+    </div>
+    </nav>
+
+    <h1 style="background-color: #432818; color: white; padding: 40px; margin-top: 0px; text-align: center;">Contact Us!</h1>
+    <br>
+
+    <!-- CONTACT -->
+    <div class="container shadow p-4 mb-4 mt-5">
+        <div class="row">
+            <div class="col-md-6 mt-3 mb-3">
+                <h2>Send Us A Message!</h2>
+                    <form>
+                        <div class="text mb-3">
+                            <label for="inputName">Name</label>
+                            <input type="text" class="form-control" id="inputName" placeholder="Enter your name here">
+                        </div>
+                        <div class="email mb-3">
+                            <label for="inputEmail">Email Address</label>
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email address here">
+                        </div>
+                        <div class="text mb-3">
+                            <label for="inputNumber">Phone Number</label>
+                            <input type="text" class="form-control" id="inputNumber" placeholder="Enter your phone number here">
+                        </div>
+                        <div class="textarea">
+                            <div>
+                                <label for="message">Message</label>
+                                <textarea class="form-control mt-2" rows="3" id="message" name="text">
+                                </textarea>
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-outline-dark">Submit</button>
+                        </div>
+                    </form>
+            </div>
+            
+            <div class="col-md-6 mt-3 mb-3">
+                <h2>You may reach us through:</h2>
+                <hr>
+                <div class="d-flex">
+                    <img src="" class="icons">
+                    <p>Contact Number: +63 978 587</p>
+                </div>
+                <hr>
+                <div class="d-flex">
+                    <img src="" class="icons">
+                    <p>Email: amg.bakery@gmail.com</p>
+                </div>
+                <hr>
+                <div class="d-flex">
+                    <img src="" class="icons">
+                    <p>Facebook: @amg.bakery.ph</p>
+                </div>
+                <hr>
+                <div class="d-flex">
+                    <img src="" class="icons">
+                    <p>Instagram: @amg.bakery.ph</p>
+                </div>
+                <hr>
+                <div class="d-flex">
+                    <img src="" class="icons">
+                    <p>Viber: AMG Bakery PH</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="container-fluid-mt-5">
+		<div class="row">
+			<div class="col-md-4 mt-3 mb-3" id="member">
+				<h2>Interested in joining our  membership?</h2>
+				<form>
+					<input type="email" name="joinMembership" id="inputJoinMembership" class="form-control" placeholder="Enter your email address">
+				</form>	
+
+				<br>
+				
+				<div class="d-grid">
+					<button class="btn btn-outline-light btn-block" type="button">Submit</button>
+				</div>
+			</div>
+
+			<div class="col-md-4 mt-3 mb-3">
+                <h2 style="text-align: center;">References:</h2>
+				<h4 style="text-align: center;">All pictures used are from: <a href="https://www.canva.com/">Canva</a></h4>
+			</div>
+			
+            <div class="col-md-4 mt-3 mb-3">
+                <h2>Extra Information:</h2>
+                <h4 style="text-align: justify;">
+                    We deliver through: Grab, Foodpanda, and Lalamove.
+                    <br>
+                    Business hours: 10:00AM-10:00PM.
+                    <br>
+                    The product prices above includes the tax rate of 0.08 (8%).
+                </h4>
+			</div>
+			<hr>
+			<h2 style="text-align: center;">&#169; <a href="https://github.com/AGonzales-9R">Amanda Gonzales</a> | 10-Ruby</h2>
+		</div>
+	</div>
+    
+</body>
+</html>

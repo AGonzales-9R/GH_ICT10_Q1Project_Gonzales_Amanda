@@ -1,0 +1,30 @@
+body {
+    background-color: #efebd3;
+    color: black;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+}
+
+form {
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: white;
+}
+
+.container {
+    background-color: white;
+}
+
+.container-fluid-mt-5 {
+	margin-top: 120px;
+	background-color: #432818;
+	color: white;
+	text-align: justify;
+	padding: 20px;
+}
